@@ -23,3 +23,11 @@ PS : para criar seu banco pode ser utilizado o site https://mlab.com/
 ```bash
 npm start
 ```
+### Tecnologias utilizadas
+- NodeJs
+- Mongoose
+- Express
+- DotEnv
+
+### Banco De Dados
+- MongoDB
