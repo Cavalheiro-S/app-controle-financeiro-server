@@ -1,4 +1,4 @@
-# App-controle-financeiro-server
+# App Controle Financeiro Server
 
 ## 📦 Instalando
 
@@ -16,7 +16,7 @@ cd App-controle-financeiro-server
 npm install
 ```
 ### Configurando a variável de ambiente
-É necessário criar um arquivo ".env" definindo a variável "MONGODB_CONNECTION" com o valor do seu link de conexão do banco de dados, 
+É necessário criar um arquivo ".env" na raiz do projeto, definindo a variável "MONGODB_CONNECTION" com o valor do seu link de conexão do banco de dados, 
 PS : para criar seu banco pode ser utilizado o site https://mlab.com/ 
 
 ### Inicie o projeto
