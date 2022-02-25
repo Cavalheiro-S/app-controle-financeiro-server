@@ -6,11 +6,12 @@ const routerExpense = require("./routes/Expense/expense-route")
 const app = express();
 const cors = require("cors");
 const port = process.env.PORT | 4000;
+
+app.use(cors());
 const makeConnectionWithDatabase = require("./data/connection");
 
 makeConnectionWithDatabase();
 app.use(body_parser.json());
-app.use(cors());
 app.use("/investiment",routerInvestiment);
 app.use("/expense",routerExpense);
 
