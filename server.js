@@ -5,7 +5,7 @@ const routerInvestiment = require("./routes/Investiment/investiment-route");
 const routerExpense = require("./routes/Expense/expense-route")
 const app = express();
 const cors = require("cors");
-const port = process.env.PORT | 4000;
+const port = process.env.PORT || 4000;
 
 app.use(
     cors({
